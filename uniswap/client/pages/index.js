@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Header from '../components/Header'
 import Main from '../components/Main'
+import TransactionHistory from '../components/TransactionHistory'
+
 
 
 const style = {
@@ -15,7 +17,7 @@ export default function Home() {
       {/* Main */}
       <Main />
       {/* Transaction History */}
-      <h2>Transactions</h2>
+      <TransactionHistory />
     </div>
   )
 }
